@@ -1,0 +1,10 @@
+{
+  "id": "SneckoEye",
+  "name": "Snecko Eye",
+  "author": "Hollings",
+  "description": "Exposes game state and actions via HTTP API on localhost:9000 for programmatic play.",
+  "version": "0.1.0",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": false
+}
