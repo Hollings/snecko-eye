@@ -1,4 +1,4 @@
-# STS2 AutoPlay -- HTTP API Mod for Slay the Spire 2
+# Snecko Eye -- HTTP API Mod for Slay the Spire 2
 
 ## Overview
 
@@ -26,9 +26,9 @@ curl -X POST localhost:9000/action -d '{"type": "end_turn"}'
 ## Architecture
 
 ```
-STS2AutoPlay/
-  STS2AutoPlay.json              # Mod manifest (affects_gameplay: false)
-  STS2AutoPlay.csproj            # .NET 9, refs sts2.dll + 0Harmony + GodotSharp
+SneckoEye/
+  SneckoEye.json                 # Mod manifest (affects_gameplay: false)
+  SneckoEye.csproj               # .NET 9, refs sts2.dll + 0Harmony + GodotSharp
   src/
     ModEntry.cs                  # [ModInitializer] entry, starts HTTP server
     HttpServer.cs                # HttpListener on localhost:9000, background thread

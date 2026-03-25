@@ -20,7 +20,7 @@ public partial class StatusOverlay : CanvasLayer
         _instance.Name = "SneckoEyeOverlay";
 
         var label = new Label();
-        label.Text = "AutoPlay API: http://localhost:9000\n/help for docs";
+        label.Text = "Snecko Eye: http://localhost:9000\n/help for docs";
         label.HorizontalAlignment = HorizontalAlignment.Right;
         label.VerticalAlignment = VerticalAlignment.Top;
 

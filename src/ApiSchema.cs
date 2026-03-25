@@ -15,7 +15,7 @@ public static class ApiSchema
     {
         var schema = new
         {
-            name = "STS2 AutoPlay API",
+            name = "Snecko Eye API",
             version = "0.1.0",
             description = "HTTP API for programmatic control of Slay the Spire 2. Poll /state for game state, POST /action to take actions.",
             endpoints = new object[]
